@@ -18,7 +18,7 @@
 }
 
 .button1:hover {
-  background-color: #FFC0CB;
+  background-color: #311129;
   color: white;
 }
 
@@ -56,10 +56,11 @@ body {
 
 .masthead-intro {
     /* Layout Declarations */
+ color: #F1C863;
     margin-bottom: 0.1em;
     /* Typography Declarations */
     font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .masthead-heading {
@@ -72,6 +73,8 @@ body {
     font-size: 6em;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    
 }
 
 .introduction-section,
@@ -121,7 +124,7 @@ section > h1 {
 .masthead-intro {
   margin-bottom: 0.1em;
   font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .masthead-heading {
