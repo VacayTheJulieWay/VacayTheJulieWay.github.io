@@ -46,14 +46,6 @@ body {
   text-align: center;
 }
 
-.masthead {
-  padding: 6em 0;
-  background-image: url('https://i.imgur.com/xI3op2u.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-top: solid 1em #FFCF33;
-}
-
 .masthead-intro {
     /* Layout Declarations */
  color: #F1C863;
@@ -117,8 +109,10 @@ section > h1 {
 .masthead {
   padding: 6em 0;
   background-image: url('https://i.imgur.com/xI3op2u.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: cover;             /* Cover the container */
+  background-repeat: no-repeat;       /* No repeat */
+  background-position: center center; /* Center horizontally & vertically */
+  background-attachment: scroll;      /* Change to 'fixed' for parallax effect */
   border-top: solid 1em #FFCF33;
 }
 
