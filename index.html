@@ -1,47 +1,119 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vacay the Julie Way | Bespoke Travel Consultancy</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'Inter', sans-serif;
-      }
-      h1, h2, h3, h4, .serif {
-        font-family: 'Playfair Display', serif;
-      }
-      .glass {
-        background: rgba(255, 255, 255, 0.7);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-      }
-      .fade-in {
-        animation: fadeIn 1s ease-out forwards;
-      }
-      @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(20px); }
-        to { opacity: 1; transform: translateY(0); }
-      }
-    </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "react": "https://esm.sh/react@^19.2.4"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vacay the Julie Way</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      text-align: center;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    nav {
+      background-color: #fff;
+      padding: 1em;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .header-img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      margin-bottom: 1.5em;
+    }
+
+    .content {
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .form-link {
+      display: inline-block;
+      margin: 2em auto;
+      padding: 1em 2em;
+      background-color: #FFCF33;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .form-link:hover {
+      background-color: #f4b400;
+    }
+
+    .social-links {
+      margin: 3em 0 2em;
+    }
+
+    .social-links a {
+      margin: 0 1em;
+      text-decoration: none;
+    }
+
+    .social-links img {
+      width: 32px;
+      height: 32px;
+      vertical-align: middle;
+    }
+
+    footer {
+      margin-top: 3em;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
 </head>
-  <body>
-    <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+  </nav>
+
+  <img src="https://i.imgur.com/xI3op2u.png" alt="Vacay the Julie Way" class="header-img" />
+
+  <div class="content">
+    <h1>Let’s Plan Your Perfect Trip!</h1>
+    <p>Thanks for stopping by — I’m so excited to help plan your next adventure!</p>
+    <p>I specialize in cruises, Disney, and Universal vacations — and I’m here to help every step of the way. Whether you're dreaming of castle magic, ocean breezes, or a weekend escape, I’ll help make it happen — the Julie Way!</p>
+   <a href="https://forms.gle/oQyKYDSQStJbYR2X6" target="_blank" class="form-link">Start Your Vacation</a> -->
+  </div>
+<p style="font-size: 1.1em; font-weight: 500; margin-bottom: 1em;">
+  📸 Follow along on Facebook and Instagram to see how I (and the amazing people I plan for) Vacay the Julie Way.
+</p>
+  <div class="social-links">
+    <a href="https://www.facebook.com/profile.php?id=61554716032703" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+    </a>
+    <a href="https://www.instagram.com/vacaythejulieway" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+    </a>
+  </div>
+
+  <!-- Linktree Footer -->
+<footer style="text-align: center; padding: 2em 0; font-family: Arial, sans-serif;">
+  <p style="margin: 0;">
+    🌐 <a href="https://linktr.ee/vacaythejulieway" target="_blank" style="text-decoration: none; color: #0077cc;">
+      Visit all my links
+    </a>
+   © 2025 Vacay the Julie Way. All rights reserved.
+  </p>
+</footer>
+  </body>
 </html>
